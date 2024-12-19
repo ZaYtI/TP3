@@ -12,10 +12,10 @@ public class AppFrame {
     );
 
     public AppFrame() {
-        initializeGUI();
+        initializeFrame();
     }
 
-    private void initializeGUI() {
+    private void initializeFrame() {
         JFrame frame = new JFrame("Application de dessins");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
